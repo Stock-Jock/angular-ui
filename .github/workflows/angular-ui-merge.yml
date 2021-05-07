@@ -12,8 +12,8 @@ on:
   workflow_dispatch:
 
 env:
-  CACHE_KEY_PREFIX: ui
-  WORKING_DIRECTORY: ui
+  CACHE_KEY_PREFIX: angular
+  WORKING_DIRECTORY: angular
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
