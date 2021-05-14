@@ -1,4 +1,6 @@
 <div class="sidebar">
     <h3>Stocks</h3>
-    <p>sidebar works!</p>
+    <div *ngFor="let stock of stockList">
+        <p>{{stock.symbol}}</p>
+    </div>
 </div>
