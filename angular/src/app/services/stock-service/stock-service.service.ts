@@ -7,11 +7,11 @@ import { Observable } from 'rxjs';
 })
 export class StockServiceService {
 
-  constructor(private httpClient:  HttpClient) { 
+  constructor(private httpClient: HttpClient) {
 
   }
 
   getStockItems(): Observable<any> {
-    return this.httpClient.get("https://localhost:5001/rest/stockjock/stock");
+    return this.httpClient.get('https://localhost:5001/rest/stockjock/stock');
   }
 }
