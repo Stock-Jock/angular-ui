@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
+import { SidebarComponent } from './../sidebar/sidebar.component';
+
 @Component({
   selector: 'app-home-page',
   templateUrl: './home-page.component.html',

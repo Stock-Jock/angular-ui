@@ -1,0 +1,14 @@
+.sidebar {
+    background-color: orangered;
+}
+
+h3 {
+    border-bottom-style: solid;
+    border-width: .0215rem;
+    border-bottom-color: white;
+    padding: 1rem;
+}
+
+p {
+    padding: 0 1rem 1rem;
+}
