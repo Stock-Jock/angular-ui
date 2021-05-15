@@ -10,10 +10,10 @@ import { StockServiceService } from '../services/stock-service/stock-service.ser
   styleUrls: ['./sidebar.component.css']
 })
 export class SidebarComponent implements OnInit {
-  
+
   stockList: Stock[];
 
-  constructor(private stockService: StockServiceService, private router: Router) { 
+  constructor(private stockService: StockServiceService, private router: Router) {
     this.stockList = [];
   }
 
@@ -26,7 +26,7 @@ export class SidebarComponent implements OnInit {
     this.stockService.getStockItems().subscribe((res) => {
       this.stockList = res;
       console.log(this.stockList);
-    })
+    });
   }
 
 }
