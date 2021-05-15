@@ -1,0 +1,32 @@
+
+.sidebar {
+    background-color: orangered;
+    margin: 0 0 24px 4px;
+    border: darkblue;
+    border-style: solid;
+    border-width: .0125rem;
+    /* max-width: 50rem; */
+}
+
+.stock-item {
+    margin-bottom: 1.5rem;
+}
+
+h3 {
+    border-bottom-style: solid;
+    border-width: .0215rem;
+    border-bottom-color: white;
+    padding: 1.025rem 1.5rem;
+    margin: 0;
+}
+
+h4 {
+    margin: .75rem 0 .3rem 0;
+    padding: 0 1.65rem;
+    font-size: .75rem;
+}
+
+p {
+    margin: .15rem 0 0 0;
+    padding: 0 1.5rem;
+}
