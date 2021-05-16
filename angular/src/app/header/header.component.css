@@ -1,0 +1,12 @@
+.header {
+    background-color: blueviolet;
+    position: sticky;
+    top: 0;
+    margin: 0;
+    height: 4rem;
+    width: 100%;
+}
+
+p {
+    margin: 0;
+}
