@@ -1,6 +1,7 @@
 <div class="sidebar">
     <h3>Stocks</h3>
-    <div *ngFor="let stock of stockList">
-        <p>{{stock.symbol}}</p>
+    <div class="stock-item" *ngFor="let stock of stockList">
+        <h4>{{stock.symbol}}</h4>
+        <p>10 Shares</p>
     </div>
 </div>
